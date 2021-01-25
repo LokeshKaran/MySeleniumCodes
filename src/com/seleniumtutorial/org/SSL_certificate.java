@@ -19,6 +19,8 @@ public class SSL_certificate {
 				"C:\\Users\\Lokesh\\eclipse-workspace\\SeleniumTutorial\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(cape);
 		driver.get("https://www.cacert.org/");
+		
+		driver.quit();
 
 	}
 
